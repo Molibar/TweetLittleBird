@@ -15,7 +15,6 @@ namespace TweetLittleBird.Api.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            //HttpContext.Current.Response.AppendHeader("Content-Type", "application/json");
             return "value";
         }
 
