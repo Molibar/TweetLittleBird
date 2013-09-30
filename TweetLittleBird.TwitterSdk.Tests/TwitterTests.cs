@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using TweetLittleBird.TwitterSdk.Settings;
 
 namespace TweetLittleBird.TwitterSdk.Tests
@@ -11,7 +6,7 @@ namespace TweetLittleBird.TwitterSdk.Tests
     [TestFixture]
     public class TwitterTests
     {
-        private ITwitter _twitter;
+        private Twitter _twitter;
 
         [SetUp]
         public void SetUp()

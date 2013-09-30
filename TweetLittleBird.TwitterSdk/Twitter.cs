@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TweetLittleBird.TwitterSdk.Model;
 using TweetLittleBird.TwitterSdk.Settings;
 
 namespace TweetLittleBird.TwitterSdk
@@ -21,11 +22,5 @@ namespace TweetLittleBird.TwitterSdk
         {
             return new List<Tweet>(new [] {new Tweet()});
         }
-    }
-
-    public class Tweet
-    {
-        public string Id { get; set; }
-        public string Text { get; set; }
     }
 }
