@@ -21,13 +21,13 @@ namespace TweetLittleBird.TwitterSdk.Tests.Publisher
         }
 
         [Test]
-        public void Should_()
+        public void Should_Flock()
         {
             // Arrange
             var tweet = new Tweet { Text = "My tweet!"};
 
             // Act
-            _twitterPublisher.Publish(tweet);
+            //_twitterPublisher.Publish(tweet);
 
             // Assert
         }

@@ -17,7 +17,7 @@ namespace TweetLittleBird.TwitterSdk.Tests
         }
 
         [Test]
-        public void Should_()
+        public void Should_TwitteriTweet()
         {
             // Arrange
 
