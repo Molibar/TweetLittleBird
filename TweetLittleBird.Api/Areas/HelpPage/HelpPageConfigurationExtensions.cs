@@ -8,6 +8,7 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
 using TweetLittleBird.Api.Areas.HelpPage.Models;
+using TweetLittleBird.Api.Areas.HelpPage.SampleGeneration;
 
 namespace TweetLittleBird.Api.Areas.HelpPage
 {

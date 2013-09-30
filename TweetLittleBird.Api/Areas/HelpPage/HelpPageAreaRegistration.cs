@@ -1,5 +1,6 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using TweetLittleBird.Api.Areas.HelpPage.App_Start;
 
 namespace TweetLittleBird.Api.Areas.HelpPage
 {

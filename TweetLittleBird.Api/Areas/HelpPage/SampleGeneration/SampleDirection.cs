@@ -1,4 +1,4 @@
-namespace TweetLittleBird.Api.Areas.HelpPage
+namespace TweetLittleBird.Api.Areas.HelpPage.SampleGeneration
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

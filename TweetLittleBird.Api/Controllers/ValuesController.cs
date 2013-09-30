@@ -1,11 +1,19 @@
 ﻿using System.Collections.Generic;
 using System.Web;
 using System.Web.Http;
+using TweetLittleBird.TwitterSdk;
 
 namespace TweetLittleBird.Api.Controllers
 {
     public class ValuesController : ApiController
     {
+        private readonly ITwitter _twitter;
+
+        public ValuesController(ITwitter twitter)
+        {
+            _twitter = twitter;
+        }
+
         // GET api/values
         public IEnumerable<string> Get()
         {

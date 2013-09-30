@@ -10,6 +10,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3F656A
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetLittleBird.ApiProxy", "TweetLittleBird.ApiProxy\TweetLittleBird.ApiProxy.csproj", "{1BE4643F-FEE6-4C75-A3B8-1A33A9E32B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetLittleBird.Framework", "TweetLittleBird.Framework\TweetLittleBird.Framework.csproj", "{2A35E251-1484-4A97-8207-82F42DBD3723}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwitterSdk", "TwitterSdk", "{FC7E4966-7921-4F87-8814-C455F37C4C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetLittleBird.TwitterSdk", "TweetLittleBird.TwitterSdk\TweetLittleBird.TwitterSdk.csproj", "{517B8E12-C859-4CD5-80FD-0DDB7FD9458D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CB803897-CE69-47AE-B1DF-0BF5FF0FBB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetLittleBird.TwitterSdk.Tests", "TweetLittleBird.TwitterSdk.Tests\TweetLittleBird.TwitterSdk.Tests.csproj", "{1F5709E5-6DCD-4E74-85D3-1F98375B4954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetLittleBird.ApiProxy.Tests", "TweetLittleBird.ApiProxy.Tests\TweetLittleBird.ApiProxy.Tests.csproj", "{86AC8C5F-1AD6-4889-A2F0-372A8CC05F70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +34,34 @@ Global
 		{18991DA3-6549-4A98-940A-4F6D72CD9F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18991DA3-6549-4A98-940A-4F6D72CD9F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18991DA3-6549-4A98-940A-4F6D72CD9F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE4643F-FEE6-4C75-A3B8-1A33A9E32B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE4643F-FEE6-4C75-A3B8-1A33A9E32B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE4643F-FEE6-4C75-A3B8-1A33A9E32B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE4643F-FEE6-4C75-A3B8-1A33A9E32B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A35E251-1484-4A97-8207-82F42DBD3723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A35E251-1484-4A97-8207-82F42DBD3723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A35E251-1484-4A97-8207-82F42DBD3723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A35E251-1484-4A97-8207-82F42DBD3723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517B8E12-C859-4CD5-80FD-0DDB7FD9458D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517B8E12-C859-4CD5-80FD-0DDB7FD9458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517B8E12-C859-4CD5-80FD-0DDB7FD9458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517B8E12-C859-4CD5-80FD-0DDB7FD9458D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5709E5-6DCD-4E74-85D3-1F98375B4954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5709E5-6DCD-4E74-85D3-1F98375B4954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5709E5-6DCD-4E74-85D3-1F98375B4954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5709E5-6DCD-4E74-85D3-1F98375B4954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AC8C5F-1AD6-4889-A2F0-372A8CC05F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AC8C5F-1AD6-4889-A2F0-372A8CC05F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AC8C5F-1AD6-4889-A2F0-372A8CC05F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AC8C5F-1AD6-4889-A2F0-372A8CC05F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BE4643F-FEE6-4C75-A3B8-1A33A9E32B01} = {FC7E4966-7921-4F87-8814-C455F37C4C0E}
+		{517B8E12-C859-4CD5-80FD-0DDB7FD9458D} = {FC7E4966-7921-4F87-8814-C455F37C4C0E}
+		{1F5709E5-6DCD-4E74-85D3-1F98375B4954} = {CB803897-CE69-47AE-B1DF-0BF5FF0FBB78}
+		{86AC8C5F-1AD6-4889-A2F0-372A8CC05F70} = {CB803897-CE69-47AE-B1DF-0BF5FF0FBB78}
 	EndGlobalSection
 EndGlobal
